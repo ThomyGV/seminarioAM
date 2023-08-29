@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="5dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#FFA000"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Dune"/>
+
+    <ScrollView
+        android:id="@+id/svInfo"
+        android:layout_width="match_parent"
+        android:layout_height="560dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Reseña"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="En el desértico planeta Arrakis, el agua es el bien más preciado y llorar a los muertos, el símbolo de máxima prodigalidad. Pero algo hace de Arrakis una pieza estratégica para los intereses del Emperador, las Grandes Casas y la Cofradía, los tres grandes poderes de la galaxia. Arrakis es el único origen conocido de la melange, preciosa especia y uno de los bienes más codiciados del universo. Al duque Leto Atreides se le asigna el gobierno de este mundo inhóspito, habitado por los indómitos Fremen y monstruosos gusanos de arena de centenares de metros de longitud. Sin embargo, cuando la familia es traicionada, su hijo y heredero, Paul, emprenderá un viaje hacia un destino más grande del que jamás hubiese podido soñar."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Lista de Personajes"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Paul Atreides"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Paul es hijo de Leto Atreides, duque de Caladan y de la Dama Jessica, concubina del duque. Luego del escape de sus enemigos Harkonnen, tomo el nombre de Muad'ib junto a la tibu Fremen  Paul Atreides, también conocido como Muad'Dib, Usul y El Profeta (10175 AG- 10219 AG). Nació en el planeta Caladan, como hijo del duque Leto Atreides I y su concubina, Bene Gesserit, Jessica Atreides. También era el hermano mayor de Alia Atreides.  Paul se casó con una Bene Gesserit, Irulan Corrino, que entrenó y no tuvo un heredero de ella. Con su concubina Fremen, Chani Kynes, fue el padre de los gemelos Ghanima y Leto Atreides II, el Dios Emperador.  Fue el último Duque de la Casa Atreides, líder de los Fremen y primer gobernante del Imperio Atreides, Paul fue considerado el Kwisatz Haderach: el poderoso ser profético, buscado durante mucho tiempo por el Bene Gesserit y producto de su prolongado programa genético."
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Dama Jessica"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Jessica de los Atreides (10154 AG-10256 AG) fue la concubina oficial del duque Leto Atreides I , y la madre de su hijo y amante, el emperador Paul Atreides . También era una Reverenda Madre de la Hermandad Bene Gesserit." />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Leto Atreides"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Leto Atreides era un hombre alto con piel aceitunada y cabello negro. Tenía una cara estrecha llena de ángulos y planos, con una nariz de puente alto que le daba el aspecto de un halcón y humo de leña en sus ojos grises." />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/svInfo"
+        android:layout_gravity="center"
+        android:layout_marginTop="17dp"
+        android:text="Volver"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
