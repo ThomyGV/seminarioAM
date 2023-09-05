@@ -9,13 +9,13 @@ import androidx.activity.ComponentActivity
 
 class SplashScreenActivity : ComponentActivity() {
 
-    private val demora : Long 2000
+    private val demora : Long = 3000
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
 
         val r = Runnable {
-            intento = Intent(this, MainActivity::class.java)
+            var intento = Intent(this, MainActivity::class.java)
             startActivity(intento)
             finish();
         }
