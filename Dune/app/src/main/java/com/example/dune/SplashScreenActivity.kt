@@ -1,7 +1,6 @@
 package com.example.dune
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -15,9 +14,9 @@ class SplashScreenActivity : ComponentActivity() {
         setContentView(R.layout.activity_splash_screen)
 
         val r = Runnable {
-            var intento = Intent(this, MainActivity::class.java)
+            val intento = Intent(this, MainActivity::class.java)
             startActivity(intento)
-            finish();
+            finish()
         }
         Handler(Looper.getMainLooper()).postDelayed(r, demora)
 
