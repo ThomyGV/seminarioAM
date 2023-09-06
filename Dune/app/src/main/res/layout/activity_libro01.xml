@@ -21,7 +21,7 @@
         android:gravity="center"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:text="Dune"/>
+        android:text="@string/libro_01"/>
 
     <ScrollView
         android:id="@+id/svInfo"
@@ -46,7 +46,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
-                android:text="Reseña"
+                android:text="@string/reseña"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -63,7 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:text="Lista de Personajes"
+                android:text="@string/personajes_principales"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -72,7 +72,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:text="Paul Atreides"
+                android:text="@string/paul_atreides"
                 android:textStyle="bold" />
 
             <TextView
@@ -88,7 +88,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:text="Dama Jessica"
+                android:text="@string/dama_jessica"
                 android:textStyle="bold" />
 
             <TextView
@@ -103,7 +103,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:text="Leto Atreides"
+                android:text="@string/leto_atreides"
                 android:textStyle="bold" />
 
             <TextView
@@ -120,10 +120,9 @@
     <Button
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/svInfo"
         android:layout_gravity="center"
         android:layout_marginTop="17dp"
-        android:text="Volver"
+        android:text="@string/volver"
         android:textStyle="bold" />
 
 

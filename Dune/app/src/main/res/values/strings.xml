@@ -12,4 +12,16 @@
     <string name="usuario_nuevo">Usuario Nuevo</string>
     <string name="reingreso_pass">Reeingrese Password</string>
     <string name="autor">Frank Herbert</string>
+    <string name="libro_01">Dune</string>
+    <string name="libro_02">El Mesías deDune</string>
+    <string name="libro_03">Hijos de Dune</string>
+    <string name="libro_04">Dios Emperador de Dune</string>
+    <string name="libro_05">Herejes de Dune</string>
+    <string name="libro_06">Casa Capitular Dune</string>
+    <string name="paul_atreides">Paul Atreides</string>
+    <string name="dama_jessica">Dama Jessica</string>
+    <string name="leto_atreides">Leto Atreides</string>
+    <string name="personajes_principales">Personajes Principales</string>
+    <string name="reseña">Reseña</string>
+    <string name="volver">Volver</string>
 </resources>
