@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Dune</string>
+    <string name="login">LOGIN</string>
+    <string name="ingresar_usuario">Ingresar Usuario</string>
+    <string name="user">Usuario</string>
+    <string name="ingresar_pass">Ingresar Password</string>
+    <string name="pass">Password</string>
+    <string name="recordar_user">Recordar Usuario</string>
+    <string name="crear_user">CREAR USUARIO</string>
+    <string name="iniciar_sesion">INICIAR SESION</string>
+    <string name="nuevo_registro">REGISTRO NUEVO</string>
+    <string name="usuario_nuevo">Usuario Nuevo</string>
+    <string name="reingreso_pass">Reeingrese Password</string>
+    <string name="autor">Frank Herbert</string>
 </resources>

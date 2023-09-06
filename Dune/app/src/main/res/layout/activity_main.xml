@@ -15,17 +15,17 @@
         android:layout_height="50dp"
         android:background="@color/teal_700"
         android:gravity="center"
-        android:textSize="26dp"
+        android:textSize="26sp"
         android:textColor="@color/white"
         android:textStyle="bold"
-        android:text="LOGIN"/>
+        android:text="@string/login"/>
 
     <TextView
         android:id="@+id/ingresoUsuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Ingresar usuario" />
+        android:text="@string/ingresar_usuario" />
 
     <EditText
         android:id="@+id/usuario"
@@ -33,14 +33,14 @@
         android:layout_height="50dp"
         android:textStyle="bold"
         android:inputType="text"
-        android:hint="usuario" />
+        android:hint="@string/user" />
 
     <TextView
         android:id="@+id/ingresoContraseña"
         android:layout_width="match_parent"
         android:gravity="center"
         android:layout_height="wrap_content"
-        android:text="Ingresar contraseña" />
+        android:text="@string/ingresar_pass" />
 
     <EditText
         android:id="@+id/contraseña"
@@ -48,14 +48,14 @@
         android:layout_height="50dp"
         android:textStyle="bold"
         android:inputType="textPassword"
-        android:hint="password"/>
+        android:hint="@string/pass"/>
 
     <CheckBox
         android:id="@+id/chequeo"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:textStyle="bold"
-        android:text="Recordar Usuario"
+        android:text="@string/recordar_user"
         />
 
     <LinearLayout
@@ -73,7 +73,7 @@
             android:textColor="@color/white"
             android:textStyle="bold"
             android:background="@color/teal_700"
-            android:text="CREAR USUARIO"
+            android:text="@string/crear_user"
             />
 
         <Button
@@ -82,7 +82,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".5"
             android:background="@color/teal_700"
-            android:text="INICIAR SESION"
+            android:text="@string/iniciar_sesion"
             android:textColor="@color/white"
             android:textStyle="bold" />
 
