@@ -19,7 +19,6 @@ import android.widget.CheckBox
 import android.content.Intent
 import android.view.View
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : ComponentActivity() {
 
