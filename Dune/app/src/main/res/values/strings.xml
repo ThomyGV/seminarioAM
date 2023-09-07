@@ -24,4 +24,8 @@
     <string name="personajes_principales">Personajes Principales</string>
     <string name="reseña">Reseña</string>
     <string name="volver">Volver</string>
+
+    <string name="nombre_usuario">NOMBRE</string>
+    <string name="password_usuario">PASSWORD</string>
+    <string name="sp_credenciales">SP_CREDENCIALES</string>
 </resources>
